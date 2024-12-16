@@ -13,8 +13,8 @@ const Footer = () => {
 
             <footer className='bg-white py-[50px] mt-[100px]'>
                 <div className="container ">
-                    <div className='flex flex-wrap justify-between items-center border-b-2 border-gray-light pb-[30px]'>
-                        <div className='basis-[40%] flex flex-col gap-[20px]'>
+                    <div className='flex flex-wrap justify-between items-center border-b-2 border-gray-light pb-[30px] gap-y-[20px]'>
+                        <div className='md:basis-[40%] flex flex-col gap-[20px]'>
                             <div>
                                 <img src={image} alt="" />
                             </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='basis-[20%]'>
+                        <div className='md:basis-[20%]'>
                             <h2 className='font-semibold text-[20px]'>Quick Link</h2>
                             <ul className='flex flex-col gap-2 text-gray-dark mt-[20px]'>
                                 <li>Home</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                                 <li>Register</li>
                             </ul>
                         </div>
-                        <div className='basis-[30%] text-gray-dark flex flex-col gap-2'>
+                        <div className='md:basis-[30%] text-gray-dark flex flex-col gap-2'>
                             <p>(316) 555-0116</p>
                             <p>deanna.curtis@example.com</p>
                         </div>
