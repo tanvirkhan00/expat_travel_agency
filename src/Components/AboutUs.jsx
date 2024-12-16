@@ -16,7 +16,7 @@ const AboutUs = () => {
                 <div className="container">
                     <div className='mt-[100px] flex flex-col gap-[30px]'>
                         <div className='flex flex-col items-center justify-center gap-[5px] relative'>
-                            <h2 className='md:text-[48px] font-semibold'>Why Choose Expat Global Girls</h2>
+                            <h2 className='text-[48px] font-semibold'>Why Choose Expat Global Girls</h2>
                             <p className='text-gray-dark'>Empowering women to travel with confidence and ease worldwide</p>
                             <p className='absolute bg-gray px-[10px] py-[5px] rounded-[10px] top-[-30px] -rotate-12 text-[12px]'>Why Choose us?</p>
                         </div>

@@ -30,14 +30,14 @@ const HiroSection = () => {
                                 <p className='text-[30px] md:text-[48px] text-white font-semibold'>The Premier Co-living Travel Network for Women</p>
                                 <p className='flex relative before:content-[""] before:block before:w-[38px] before:h-[3px] before:bg-white text-white font-semibold'>Find your perfect housemate move faster, stay longer and travel with confidence</p>
                             </div>
-                            <div className='md:basis-[47%] backdrop-blur-3xl py-[20px] md:px-[24px]'>
+                            <div className='md:basis-[47%] backdrop-blur-3xl py-[20px] md:px-[24px] px-[16px]'>
                                 <h1 className='text-center text-white text-[24px] font-semibold'>Sign up with email</h1>
                                 <form className='mt-[28px] flex flex-wrap justify-between gap-y-[20px] text-white'>
-                                    <div className='basis-[100%] md:basis-[45%] flex flex-col gap-1'>
+                                    <div className='basis-[100%] lg:basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="fname">First Name</label>
                                         <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white' id='fname' type="text" placeholder='Enter your first name' />
                                     </div>
-                                    <div className='basis-[100%] md:basis-[45%] flex flex-col gap-1'>
+                                    <div className='basis-[100%] lg:basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="lname">Last Name</label>
                                         <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your last name' id="lname" />
                                     </div>
@@ -60,7 +60,7 @@ const HiroSection = () => {
                     </div>
                 </div>
                 <div className="container mt-[-50px]">
-                    <div className='flex flex-wrap justify-between bg-white p-[20px] w-[90%] mx-auto rounded-t-[10px] gap-y-[10px]'>
+                    <div className='flex flex-wrap justify-between bg-white p-[20px] w-[90%] md:w-[100%] lg:w-[90%] mx-auto rounded-t-[10px] gap-y-[10px]'>
                         <div className='md:basis-[25%]'>
                             <img src={image1} alt="" />
                             <div>

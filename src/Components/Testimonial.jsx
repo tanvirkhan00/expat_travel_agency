@@ -38,10 +38,10 @@ const Testimonial = () => {
                             <p className='absolute bg-gray px-[10px] py-[5px] rounded-[10px] top-[-30px] -rotate-12 text-[12px]'>Testimonial</p>
                         </div>
 
-                        <div className="slider-container">
+                        <div className="slider-container w-[90%] mx-auto">
                             <Slider {...settings}>
                                 <div>
-                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%]'>
+                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%] gap-y-[20px]'>
                                         <div className='basis-[100%] md:basis-[45%] bg-blue px-[50px] py-[30px] md:rounded-[10px]'>
                                             <div className='flex justify-between items-start'>
                                                 <img src={image} alt="" />
@@ -57,13 +57,13 @@ const Testimonial = () => {
                                                 <p className='text-gray-light'>Dec  3-8</p>
                                             </div>
                                         </div>
-                                        <div className='md:basis-[40%] text-gray-dark'>
+                                        <div className='md:basis-[40%] text-gray-dark p-[20px]'>
                                             <p>Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%]'>
+                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%] gap-y-[20px]'>
                                         <div className='basis-[100%] md:basis-[45%] bg-blue px-[50px] py-[30px] md:rounded-[10px]'>
                                             <div className='flex justify-between items-start'>
                                                 <img src={image} alt="" />
@@ -79,13 +79,13 @@ const Testimonial = () => {
                                                 <p className='text-gray-light'>Dec  3-8</p>
                                             </div>
                                         </div>
-                                        <div className='md:basis-[40%] text-gray-dark'>
+                                        <div className='md:basis-[40%] text-gray-dark p-[20px]'>
                                             <p>Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%]'>
+                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%] gap-y-[20px]'>
                                         <div className='basis-[100%] md:basis-[45%] bg-blue px-[50px] py-[30px] md:rounded-[10px]'>
                                             <div className='flex justify-between items-start'>
                                                 <img src={image} alt="" />
@@ -101,13 +101,13 @@ const Testimonial = () => {
                                                 <p className='text-gray-light'>Dec  3-8</p>
                                             </div>
                                         </div>
-                                        <div className='md:basis-[40%] text-gray-dark'>
+                                        <div className='md:basis-[40%] text-gray-dark p-[20px]'>
                                             <p>Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%]'>
+                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%] gap-y-[20px]'>
                                         <div className='basis-[100%] md:basis-[45%] bg-blue px-[50px] py-[30px] md:rounded-[10px]'>
                                             <div className='flex justify-between items-start'>
                                                 <img src={image} alt="" />
@@ -123,13 +123,13 @@ const Testimonial = () => {
                                                 <p className='text-gray-light'>Dec  3-8</p>
                                             </div>
                                         </div>
-                                        <div className='md:basis-[40%] text-gray-dark'>
+                                        <div className='md:basis-[40%] text-gray-dark p-[20px]'>
                                             <p>Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%]'>
+                                    <div className='mt-[50px] flex justify-between flex-wrap items-center bg-white w-[90%] gap-y-[20px]'>
                                         <div className='basis-[100%] md:basis-[45%] bg-blue px-[50px] py-[30px] md:rounded-[10px]'>
                                             <div className='flex justify-between items-start'>
                                                 <img src={image} alt="" />
@@ -145,7 +145,7 @@ const Testimonial = () => {
                                                 <p className='text-gray-light'>Dec  3-8</p>
                                             </div>
                                         </div>
-                                        <div className='md:basis-[40%] text-gray-dark'>
+                                        <div className='md:basis-[40%] text-gray-dark p-[20px]'>
                                             <p>Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
                                         </div>
                                     </div>

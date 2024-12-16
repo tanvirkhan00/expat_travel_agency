@@ -21,8 +21,8 @@ export default {
     container: {
       center: true,
       padding: {
-        DEFFAULT: '1rem'
-      }
+        DEFAULT: '1rem',
+      },
     },
     extend: {
       backgroundImage: {
