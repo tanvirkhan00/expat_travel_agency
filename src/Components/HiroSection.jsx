@@ -47,7 +47,7 @@ const HiroSection = () => {
                                     </div>
                                     <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="pass">Password</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your password' id="pass" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="password" placeholder='Enter your password' id="pass" />
                                     </div>
                                     <p className='mx-auto'>You are already member <span className='border-b-2 border-white'>log in</span></p>
                                     <button className='basis-[100%] flex items-center justify-center gap-2 bg-blue py-2 rounded-[10px]'>

@@ -4,6 +4,8 @@ import HiroSection from '../Components/HiroSection';
 import Community from '../Components/Community';
 import TravelTypes from '../Components/TravelTypes';
 import AboutUs from '../Components/AboutUs';
+import Processing from '../Components/Processing';
+import Testimonial from '../Components/Testimonial';
 
 const Home = () => {
     return (
@@ -11,7 +13,9 @@ const Home = () => {
             <HiroSection />
             <Community />
             <TravelTypes />
-            <AboutUs/>
+            <AboutUs />
+            <Processing />
+            <Testimonial />
         </>
     );
 };
