@@ -5,3 +5,13 @@
 body {
     @apply bg-gray-light
 }
+
+@layer components {
+    .bgHover {
+        @apply duration-300 ease-in-out transform hover:bg-green
+    }
+
+    .borderHover {
+        @apply duration-300 ease-in-out transform hover:border-[1px] hover:border-black
+    }
+}

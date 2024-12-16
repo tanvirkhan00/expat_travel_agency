@@ -21,28 +21,28 @@ const AboutUs = () => {
                             <p className='absolute bg-gray px-[10px] py-[5px] rounded-[10px] top-[-30px] -rotate-12 text-[12px]'>Why Choose us?</p>
                         </div>
                         <div className='flex flex-wrap relative justify-between gap-y-[40px]'>
-                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-br-[100px] rounded-[10px]'>
+                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-br-[100px] rounded-[10px] bgHover'>
                                 <img src={Image} alt="" />
                                 <div className='mt-[10px]'>
                                     <h2 className='text-[24px] font-semibold'>Affordable Housing</h2>
                                     <p className='text-gray-dark'>Save money and travel smarter by sharing accommodations with fellow members.</p>
                                 </div>
                             </div>
-                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-bl-[100px] rounded-[10px]'>
+                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-bl-[100px] rounded-[10px] bgHover'>
                                 <img src={Image1} alt="" />
                                 <div className='mt-[10px]'>
                                     <h2 className='text-[24px] font-semibold'>Flexible Options</h2>
                                     <p className='text-gray-dark'>From memberships to travel & lifestyle preferences-you have the power to choose.</p>
                                 </div>
                             </div>
-                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-tr-[100px] rounded-[10px]'>
+                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-tr-[100px] rounded-[10px] bgHover'>
                                 <img src={Image2} alt="" />
                                 <div className='mt-[10px]'>
                                     <h2 className='text-[24px] font-semibold'>Verified Profiles</h2>
                                     <p className='text-gray-dark'>A reliable community with verified profiles for added safety and peace of mind.</p>
                                 </div>
                             </div>
-                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-tl-[100px] rounded-[10px]'>
+                            <div className='md:basis-[45%] border-[1px] border-gray-dark px-[70px] py-[20px] rounded-tl-[100px] rounded-[10px] bgHover'>
                                 <img src={Image3} alt="" />
                                 <div className='mt-[10px]'>
                                     <h2 className='text-[24px] font-semibold'>Women-Only Spaces</h2>

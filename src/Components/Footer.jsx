@@ -32,10 +32,10 @@ const Footer = () => {
                         <div className='md:basis-[20%]'>
                             <h2 className='font-semibold text-[20px]'>Quick Link</h2>
                             <ul className='flex flex-col gap-2 text-gray-dark mt-[20px]'>
-                                <li>Home</li>
-                                <li>Faq</li>
-                                <li>Country search</li>
-                                <li>Register</li>
+                                <li className='border-b-2 border-transparet border-black max-w-fit'>Home</li>
+                                <li className='border-b-2 border-b-green border-black max-w-fit'>Faq</li>
+                                <li className='border-b-2 border-b-green border-black max-w-fit'>Country search</li>
+                                <li className='border-b-2 border-b-green border-black max-w-fit'>Register</li>
                             </ul>
                         </div>
                         <div className='md:basis-[30%] text-gray-dark flex flex-col gap-2'>

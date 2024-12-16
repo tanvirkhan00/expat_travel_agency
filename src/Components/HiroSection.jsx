@@ -27,27 +27,27 @@ const HiroSection = () => {
                         </nav>
                         <div className='flex flex-wrap justify-between mt-[100px] gap-y-[20px]'>
                             <div className='md:basis-[47%] flex flex-col gap-[20px]'>
-                                <p className='text-[30px] md:text-[48px] text-white font-semibold'>The Premier Co-living Travel Network for Women</p>
-                                <p className='flex relative before:content-[""] before:block before:w-[38px] before:h-[3px] before:bg-white text-white font-semibold'>Find your perfect housemate move faster, stay longer and travel with confidence</p>
+                                <p className='text-[30px] md:text-[48px] text-black font-semibold'>The Premier Co-living Travel Network for Women</p>
+                                <p className='flex gap-2 relative before:content-[""] before:block before:w-[38px] before:h-[3px] before:bg-white before:mt-3 text-black font-semibold'>Find your perfect housemate move faster, stay longer and travel with confidence</p>
                             </div>
                             <div className='md:basis-[47%] backdrop-blur-3xl py-[20px] md:px-[24px] px-[16px]'>
                                 <h1 className='text-center text-white text-[24px] font-semibold'>Sign up with email</h1>
                                 <form className='mt-[28px] flex flex-wrap justify-between gap-y-[20px] text-white'>
                                     <div className='basis-[100%] lg:basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="fname">First Name</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white' id='fname' type="text" placeholder='Enter your first name' />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover' id='fname' type="text" placeholder='Enter your first name' />
                                     </div>
                                     <div className='basis-[100%] lg:basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="lname">Last Name</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your last name' id="lname" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover'  type="text" placeholder='Enter your last name' id="lname" />
                                     </div>
                                     <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="email">Email Address</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your email address' id="email" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover'  type="text" placeholder='Enter your email address' id="email" />
                                     </div>
                                     <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="pass">Password</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="password" placeholder='Enter your password' id="pass" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover'  type="password" placeholder='Enter your password' id="pass" />
                                     </div>
                                     <p className='mx-auto'>You are already member <span className='border-b-2 border-white'>log in</span></p>
                                     <button className='basis-[100%] flex items-center justify-center gap-2 bg-blue py-2 rounded-[10px]'>
@@ -61,21 +61,21 @@ const HiroSection = () => {
                 </div>
                 <div className="container mt-[-50px]">
                     <div className='flex flex-wrap justify-between bg-white p-[20px] w-[90%] md:w-[100%] lg:w-[90%] mx-auto rounded-t-[10px] gap-y-[10px]'>
-                        <div className='md:basis-[25%]'>
+                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image1} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>150+ Countries</h2>
                                 <p className='text-gray-dark'>Empowering women to explore destinations globally.</p>
                             </div>
                         </div>
-                        <div className='md:basis-[25%]'>
+                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image2} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>Connect & Travel</h2>
                                 <p className='text-gray-dark'>A trusted community of verified members.</p>
                             </div>
                         </div>
-                        <div className='md:basis-[25%]'>
+                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image3} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>Find Your Tribe</h2>
