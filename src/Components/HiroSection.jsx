@@ -7,12 +7,17 @@ import image2 from "../assets/True-friends1.jpg";
 import image3 from "../assets/World-bro1.png";
 
 
+// Icon
+import { FaArrowRight } from "react-icons/fa6";
+
+
+
 const HiroSection = () => {
     return (
         <>
 
             <section>
-                <div className="bg-HiroImage bg-no-repeat bg-cover h-[100vh]">
+                <div className="bg-HiroImage bg-no-repeat bg-cover pt-[20px] pb-[200px]">
                     <div className="container">
                         <nav className='backdrop-blur-3xl bg-white/20 p-[20px] h-[90px] flex items-center justify-between '>
                             <img src={icon} alt="" />
@@ -27,49 +32,54 @@ const HiroSection = () => {
                             </div>
                             <div className='basis-[47%] backdrop-blur-3xl py-[20px] px-[24px]'>
                                 <h1 className='text-center text-white text-[24px] font-semibold'>Sign up with email</h1>
-                                <form className='mt-[28px] flex flex-wrap gap-y-[20px] text-white'>
-                                    <div className='basis-[45%]'>
+                                <form className='mt-[28px] flex flex-wrap justify-between gap-y-[20px] text-white'>
+                                    <div className='basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="fname">First Name</label>
-                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-white border-white border-[2px] placeholder-white' id='fname' type="text" placeholder='Enter your first name' />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white' id='fname' type="text" placeholder='Enter your first name' />
                                     </div>
-                                    <div className='basis-[45%]'>
+                                    <div className='basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="lname">Last Name</label>
-                                        <input type="text" placeholder='Enter your last name' id="lname" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your last name' id="lname" />
                                     </div>
-                                    <div className='basis-[100%]'>
+                                    <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="email">Email Address</label>
-                                        <input type="text" placeholder='Enter your email address' id="email" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your email address' id="email" />
                                     </div>
-                                    <div className='basis-[100%]'>
+                                    <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="pass">Password</label>
-                                        <input type="text" placeholder='Enter your password' id="pass" />
+                                        <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white'  type="text" placeholder='Enter your password' id="pass" />
                                     </div>
+                                    <p className='mx-auto'>You are already member <span className='border-b-2 border-white'>log in</span></p>
+                                    <button className='basis-[100%] flex items-center justify-center gap-2 bg-blue py-2 rounded-[10px]'>
+                                        <p>Sign Up</p>
+                                        <span><FaArrowRight/></span>
+                                    </button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                    <div>
-                        <div>
+                <div className="container mt-[-50px]">
+                    <div className='flex flex-wrap justify-between bg-white p-[20px] w-[90%] mx-auto rounded-t-[10px]'>
+                        <div className='basis-[25%]'>
                             <img src={image1} alt="" />
                             <div>
-                                <h2>150+ Countries</h2>
-                                <p>Empowering women to explore destinations globally.</p>
+                                <h2 className='font-semibold text-[24px]'>150+ Countries</h2>
+                                <p className='text-gray-dark'>Empowering women to explore destinations globally.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className='basis-[25%]'>
                             <img src={image2} alt="" />
                             <div>
-                                <h2>Connect & Travel</h2>
-                                <p>A trusted community of verified members.</p>
+                                <h2 className='font-semibold text-[24px]'>Connect & Travel</h2>
+                                <p className='text-gray-dark'>A trusted community of verified members.</p>
                             </div>
                         </div>
-                        <div>
+                        <div className='basis-[25%]'>
                             <img src={image3} alt="" />
                             <div>
-                                <h2>Find Your Tribe</h2>
-                                <p>Find like-minded housemates faster and easier.</p>
+                                <h2 className='font-semibold text-[24px]'>Find Your Tribe</h2>
+                                <p className='text-gray-dark'>Find like-minded housemates faster and easier.</p>
                             </div>
                         </div>
                     </div>
