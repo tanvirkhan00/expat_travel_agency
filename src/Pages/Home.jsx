@@ -6,6 +6,8 @@ import TravelTypes from '../Components/TravelTypes';
 import AboutUs from '../Components/AboutUs';
 import Processing from '../Components/Processing';
 import Testimonial from '../Components/Testimonial';
+import Faq from '../Components/Faq';
+import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             <AboutUs />
             <Processing />
             <Testimonial />
+            <Faq />
+            <Footer />
         </>
     );
 };
