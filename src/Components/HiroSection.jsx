@@ -10,6 +10,7 @@ import image3 from "../assets/World-bro1.png";
 // Icon
 import { FaArrowRight } from "react-icons/fa6";
 import { IoEyeOffOutline, IoEyeOutline } from 'react-icons/io5';
+import { MdErrorOutline } from "react-icons/md";
 
 
 
@@ -31,6 +32,7 @@ const HiroSection = () => {
     }
 
     let handleSignUp = (e) => {
+        e.preventDefault();
         if (!fName) {
             setNameErr('Please Input Your First Name')
         }
@@ -47,19 +49,17 @@ const HiroSection = () => {
         }
 
         if (!passWord) {
-            setPassWordErr('Please Input Password')
-        } else {
-            if (!/(?=.*[a-z])/.test(passWord)) {
-                setPassWordErr("Must be one lowerCase")
-            } else if (!/(?=.*[A-Z])/.test(passWord)) {
-                setPassWordErr('Must contain at least one uppercase')
-            } else if (!/(?=.*[0-9])/.test(passWord)) {
-                setPassWordErr('Must contain at least one number')
-            } else if (!/(?=.*[!@#$%^&*])/.test(passWord)) {
-                setPassWordErr('Must contain at least one special character')
-            } else if (!/(?=.{8,})/.test(passWord)) {
-                setPassWordErr('Must at least 8 character')
-            }
+            setPassWordErr('Please Input Password');
+        } else if (!/(?=.*[a-z])/.test(passWord)) {
+            setPassWordErr('Must contain at least one lowercase letter');
+        } else if (!/(?=.*[A-Z])/.test(passWord)) {
+            setPassWordErr('Must contain at least one uppercase letter');
+        } else if (!/(?=.*[0-9])/.test(passWord)) {
+            setPassWordErr('Must contain at least one number');
+        } else if (!/(?=.*[!@#$%^&*])/.test(passWord)) {
+            setPassWordErr('Must contain at least one special character');
+        } else if (!/(?=.{8,})/.test(passWord)) {
+            setPassWordErr('Must be at least 8 characters long');
         }
     }
 
@@ -105,21 +105,21 @@ const HiroSection = () => {
                                         <label htmlFor="fname">First Name</label>
                                         <input onChange={handleFName} className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover' id='fname' type="text" placeholder='Enter your first name' />
                                         {nameErr &&
-                                            <p className='flex items-center gap-1'><span className='text-red-500'><MdErrorOutline /></span> {nameErr}</p>
+                                            <p className='flex items-center gap-1 text-red'><span className='text-red-500'><MdErrorOutline /></span> {nameErr}</p>
                                         }
                                     </div>
                                     <div className='basis-[100%] lg:basis-[45%] flex flex-col gap-1'>
                                         <label htmlFor="lname">Last Name</label>
                                         <input onChange={handleLName} className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover' type="text" placeholder='Enter your last name' id="lname" />
                                         {lNameErr &&
-                                            <p className='flex items-center gap-1'><span className='text-red-500'><MdErrorOutline /></span> {lNameErr}</p>
+                                            <p className='flex items-center gap-1 text-red'><span className='text-red-500'><MdErrorOutline /></span> {lNameErr}</p>
                                         }
                                     </div>
                                     <div className='basis-[100%] flex flex-col gap-1'>
                                         <label htmlFor="email">Email Address</label>
-                                        <input onChange={handleEmail} className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-0 text-black border-white border-[1px] placeholder-white borderHover' type="text" placeholder='Enter your email address' id="email" />
+                                        <input onChange={handleEmail} className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-0 text-black border-white border-[1px] placeholder-white borderHover' type="email" placeholder='Enter your email address' id="email" />
                                         {emailErr &&
-                                            <p className='flex items-center gap-1'><span className='text-red-500'><MdErrorOutline /></span> {emailErr}</p>
+                                            <p className='flex items-center gap-1 text-red'><span className='text-red-500'><MdErrorOutline /></span> {emailErr}</p>
                                         }
                                     </div>
                                     <div className='basis-[100%] flex flex-col gap-1'>
@@ -129,7 +129,7 @@ const HiroSection = () => {
                                             <span onClick={passwrdVisible}>{visiblePass ? <IoEyeOutline /> : <IoEyeOffOutline />}</span>
                                         </div>
                                         {passWordErr &&
-                                            <p className='flex items-center gap-1'><span className='text-red-500'><MdErrorOutline /></span>{passWordErr}</p>
+                                            <p className='flex items-center gap-1 text-red'><span className='text-red-500'><MdErrorOutline /></span>{passWordErr}</p>
                                         }
                                     </div>
                                     <p className='mx-auto'>You are already member <span className='border-b-2 border-white cursor-pointer'>log in</span></p>

@@ -16,7 +16,8 @@ export default {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'white':"#fff",
-      'black':"#000"
+      'black':"#000",
+      'red' : "#FF0000",
     },
     container: {
       center: true,
