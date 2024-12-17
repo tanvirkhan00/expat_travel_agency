@@ -47,7 +47,7 @@ const Processing = () => {
                                 <h2 className='text-[24px] font-semibold'>Secure Your Plans & Enjoy the Journey.</h2>
                                 <p className='text-gray-dark'>Once you’ve found the right housemate, finalize your arrangements with confidence. With a trusted companion, you can travel with peace of mind and enjoy every moment.</p>
                             </div>
-                            <span className='hidden md:block absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 transform w-[5px] h-[550px] bg-gray-dark'></span>
+                            <span className='hidden md:block absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 transform w-[5px] md:h-[750px] lg:h-[550px] bg-gray-dark'></span>
                             <span className='hidden  absolute border-[1px] border-gray-dark w-[68px] h-[68px] font-bold text-[25px] md:flex items-center justify-center rounded-full left-1/2 -translate-x-1/2 bg-white'>1</span>
                             <span className='hidden absolute border-[1px] border-gray-dark w-[68px] h-[68px] font-bold text-[25px] md:flex items-center justify-center rounded-full left-1/2 -translate-x-1/2 bottom-[58%] bg-white'>2</span>
                             <span className='hidden absolute border-[1px] border-gray-dark w-[68px] h-[68px] font-bold text-[25px] md:flex items-center justify-center rounded-full left-1/2 -translate-x-1/2 bottom-[30%] bg-white'>3</span>

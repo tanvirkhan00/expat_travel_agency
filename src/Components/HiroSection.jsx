@@ -22,7 +22,7 @@ const HiroSection = () => {
                         <nav className='backdrop-blur-3xl bg-white/20 p-[20px] h-[90px] flex items-center justify-between '>
                             <img src={icon} alt="" />
                             <button>
-                                <h4 className='bg-white font-bold text-blue px-[20px] py-[5px] rounded-[10px]'>Log in</h4>
+                                <h4 className='bg-white font-bold text-blue px-[20px] py-[5px] rounded-[10px] btnHover'>Log in</h4>
                             </button>
                         </nav>
                         <div className='flex flex-wrap justify-between mt-[100px] gap-y-[20px]'>
@@ -49,8 +49,8 @@ const HiroSection = () => {
                                         <label htmlFor="pass">Password</label>
                                         <input className='outline-none appearance-none  py-[5px] rounded-[10px] px-[10px] bg-white bg-opacity-[20px] text-black border-white border-[1px] placeholder-white borderHover'  type="password" placeholder='Enter your password' id="pass" />
                                     </div>
-                                    <p className='mx-auto'>You are already member <span className='border-b-2 border-white'>log in</span></p>
-                                    <button className='basis-[100%] flex items-center justify-center gap-2 bg-blue py-2 rounded-[10px]'>
+                                    <p className='mx-auto'>You are already member <span className='border-b-2 border-white cursor-pointer'>log in</span></p>
+                                    <button className='basis-[100%] flex items-center justify-center gap-2 bg-blue py-2 rounded-[10px] btnHover'>
                                         <p>Sign Up</p>
                                         <span><FaArrowRight/></span>
                                     </button>
@@ -61,21 +61,21 @@ const HiroSection = () => {
                 </div>
                 <div className="container mt-[-50px]">
                     <div className='flex flex-wrap justify-between bg-white p-[20px] w-[90%] md:w-[100%] lg:w-[90%] mx-auto rounded-t-[10px] gap-y-[10px]'>
-                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
+                        <div className='basis-[100%] md:basis-[30%] lg:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image1} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>150+ Countries</h2>
                                 <p className='text-gray-dark'>Empowering women to explore destinations globally.</p>
                             </div>
                         </div>
-                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
+                        <div className='basis-[100%] md:basis-[30%] lg:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image2} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>Connect & Travel</h2>
                                 <p className='text-gray-dark'>A trusted community of verified members.</p>
                             </div>
                         </div>
-                        <div className='md:basis-[25%] bgHover px-[20px] py-[10px]'>
+                        <div className='basis-[100%] md:basis-[30%] lg:basis-[25%] bgHover px-[20px] py-[10px]'>
                             <img src={image3} alt="" />
                             <div>
                                 <h2 className='font-semibold text-[24px]'>Find Your Tribe</h2>

@@ -13,7 +13,7 @@ const Faq = () => {
                     <div>
                         <div className='text-center'>
                             <h1 className='text-[48px] font-semibold'>FAQs</h1>
-                            <p className='text-gray-dark'>If you have any questions that aren't listed below, please send your question to : <span className='border-b-[1px] border-gray-dark'>info@ExpatGlobalGirls.com</span></p>
+                            <p className='text-gray-dark'>If you have any questions that aren't listed below, please send your question to : <span className='border-b-[1px] border-gray-dark cursor-pointer'>info@ExpatGlobalGirls.com</span></p>
                         </div>
                         <div className='mt-[50px] flex flex-col gap-[10px]'>
                             <div className='bg-white p-[20px] relative rounded-[10px] bgHover'>

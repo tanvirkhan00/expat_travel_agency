@@ -22,25 +22,25 @@ const Footer = () => {
                             <div>
                                 <p className='font-semibold'>Social Media:</p>
                                 <div className='flex items-center gap-2 mt-2'>
-                                    <img src={image1} alt="" />
-                                    <img src={image2} alt="" />
-                                    <img src={image3} alt="" />
-                                    <img src={image4} alt="" />
+                                    <img className='cursor-pointer' src={image1} alt="" />
+                                    <img className='cursor-pointer' src={image2} alt="" />
+                                    <img className='cursor-pointer' src={image3} alt="" />
+                                    <img className='cursor-pointer' src={image4} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='md:basis-[20%]'>
                             <h2 className='font-semibold text-[20px]'>Quick Link</h2>
                             <ul className='flex flex-col gap-2 text-gray-dark mt-[20px]'>
-                                <li className='border-b-2 border-transparet border-black max-w-fit'>Home</li>
-                                <li className='border-b-2 border-b-green border-black max-w-fit'>Faq</li>
-                                <li className='border-b-2 border-b-green border-black max-w-fit'>Country search</li>
-                                <li className='border-b-2 border-b-green border-black max-w-fit'>Register</li>
+                                <li className='borderBottomHover'>Home</li>
+                                <li className='borderBottomHover'>Faq</li>
+                                <li className='borderBottomHover'>Country search</li>
+                                <li className='borderBottomHover'>Register</li>
                             </ul>
                         </div>
                         <div className='md:basis-[30%] text-gray-dark flex flex-col gap-2'>
                             <p>(316) 555-0116</p>
-                            <p>deanna.curtis@example.com</p>
+                            <p className='borderBottomHover'>deanna.curtis@example.com</p>
                         </div>
                     </div>
                     <div>

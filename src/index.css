@@ -14,4 +14,12 @@ body {
     .borderHover {
         @apply duration-300 ease-in-out transform hover:border-[1px] hover:border-black
     }
+
+    .borderBottomHover {
+        @apply duration-300 max-w-fit cursor-pointer ease-in-out transform border-b-2 border-b-black border-opacity-0 hover:border-opacity-100 
+    }
+
+    .btnHover {
+        @apply duration-700 ease-in-out transform hover:bg-black
+    }
 }
